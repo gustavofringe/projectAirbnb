@@ -1,7 +1,12 @@
+@font-face {
+  font-family: 'Circular Book';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Circular Book"), url("../font/lineto-circular-pro-book.woff") format("woff"); }
 html, body {
   width: 100%;
   height: 100%;
-  font-family: "Circular";
+  font-family: "Circular Book";
   font-size: 14px; }
 
 /*
@@ -80,20 +85,46 @@ header .logo-header {
 .container {
   width: 85%;
   margin: 0 auto; }
-  .container .head h1 {
-    padding: 0 15px 0 0;
-    font-size: 20px; }
-    .container .head h1 span {
-      color: #FF5A5F; }
-  .container .head #form-top {
-    display: flex;
-    flex-wrap: nowrap; }
-    .container .head #form-top input {
-      width: 33%;
-      border: none; }
-    .container .head #form-top button {
+  .container .head {
+    /*
+    *
+    *######################### form search
+    *
+    */ }
+    .container .head h1 {
+      padding: 0 15px 0 0;
+      font-size: 20px;
+      color: #868686; }
+      .container .head h1 span {
+        color: #FF5A5F; }
+    .container .head #form-top_m button {
+      vertical-align: middle;
+      height: 45px;
+      position: relative; }
+      .container .head #form-top_m button img {
+        position: absolute;
+        top: 10px;
+        left: 0;
+        vertical-align: middle;
+        margin: 0 25px 0 0;
+        padding: 0; }
+    .container .head #form-top {
       display: none; }
-    .container .head #form-top label {
-      display: none; }
+  .container nav {
+    width: 350px; }
+    .container nav ul {
+      padding: 50px 0 0 0;
+      margin: 0;
+      border-bottom: 0.5px solid #868686;
+      display: flex;
+      justify-content: space-between; }
+      .container nav ul li {
+        list-style-type: none; }
+        .container nav ul li #first {
+          color: #48A6AA; }
+        .container nav ul li a {
+          text-decoration: none;
+          font-size: 12px;
+          color: #868686; }
 
 /*# sourceMappingURL=style.css.map */
