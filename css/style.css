@@ -8,6 +8,9 @@ html, body {
   font-size: 14px;
   color: #767676; }
 
+#chevron {
+  display: none; }
+
 /*
 *
 *############################### header
@@ -137,6 +140,12 @@ header .logo-header {
 *################################### image top
 *
 */
+.top h2, .top .prev {
+  display: inline-block; }
+.top h2 {
+  width: 250px; }
+.top .prev img {
+  transform: rotate(260deg); }
 .top .img {
   font-size: 14px;
   display: flex;
@@ -199,7 +208,61 @@ header .logo-header {
       content: url("../img/figure_s/figure6_s.jpg"); }
     .top .img .figure6:before {
       display: none; }
-  .top .img .chevron {
-    display: none; }
+  .top .img .figure7 {
+    width: 130px;
+    height: 195px;
+    content: url("../img/figure_s/figure7_s.jpg"); }
+    .top .img .figure7:after {
+      content: url("../img/figure_s/figure7_s.jpg"); }
+    .top .img .figure7:before {
+      display: none; }
+  .top .img .figure8 {
+    width: 130px;
+    height: 195px;
+    content: url("../img/figure_s/figure8_s.jpg"); }
+    .top .img .figure8:after {
+      content: url("../img/figure_s/figure8_s.jpg"); }
+    .top .img .figure8:before {
+      display: none; }
+  .top .img .figure9 {
+    width: 130px;
+    height: 195px;
+    content: url("../img/figure_s/figure9_s.jpg"); }
+    .top .img .figure9:after {
+      content: url("../img/figure_s/figure9_s.jpg"); }
+    .top .img .figure9:before {
+      display: none; }
+  .top .img .figure10 {
+    width: 130px;
+    height: 195px;
+    content: url("../img/figure_s/figure10_s.jpg"); }
+    .top .img .figure10:after {
+      content: url("../img/figure_s/figure10_s.jpg"); }
+    .top .img .figure10:before {
+      display: none; }
+  .top .img .figure11 {
+    width: 293px;
+    height: 195px;
+    content: url("../img/figure_s/figure11_s.jpg"); }
+    .top .img .figure11:after {
+      content: url("../img/figure_s/figure11_s.jpg"); }
+    .top .img .figure11:before {
+      display: none; }
+  .top .img .figure12 {
+    width: 293px;
+    height: 195px;
+    content: url("../img/figure_s/figure12_s.jpg"); }
+    .top .img .figure12:after {
+      content: url("../img/figure_s/figure12_s.jpg"); }
+    .top .img .figure12:before {
+      display: none; }
+  .top .img .figure13 {
+    width: 293px;
+    height: 195px;
+    content: url("../img/figure_s/figure13_s.jpg"); }
+    .top .img .figure13:after {
+      content: url("../img/figure_s/figure13_s.jpg"); }
+    .top .img .figure13:before {
+      display: none; }
 
 /*# sourceMappingURL=style.css.map */
