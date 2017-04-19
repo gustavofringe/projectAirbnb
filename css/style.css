@@ -137,7 +137,7 @@ header .logo-header {
 /*
 *
 *
-*################################### image top
+*################################### image
 *
 */
 .top h2, .top .prev {
@@ -150,9 +150,41 @@ header .logo-header {
   font-size: 14px;
   display: flex;
   justify-content: space-between;
-  overflow: scroll; }
+  overflow: scroll;
+  /*
+  *
+  *################################## image top
+  *
+  */
+  /*
+  *
+  *################################# image second level
+  *
+  */
+  /*
+  *
+  *
+  *#################################### image third level
+  *
+  */ }
   .top .img .figure {
     margin-right: 12px; }
+    .top .img .figure .star {
+      height: 0.7em;
+      width: 0.7em;
+      content: url("../img/star.svg"); }
+      .top .img .figure .star:after {
+        content: url("../img/star.svg"); }
+      .top .img .figure .star:before {
+        display: none; }
+    .top .img .figure .star2 {
+      height: 0.7em;
+      width: 0.7em;
+      content: url("../img/star2.svg"); }
+      .top .img .figure .star2:after {
+        content: url("../img/star.svg"); }
+      .top .img .figure .star2:before {
+        display: none; }
   .top .img figure {
     padding: 0;
     margin: 0; }
