@@ -296,5 +296,53 @@ header .logo-header {
       content: url("../img/figure_s/figure13_s.jpg"); }
     .top .img .figure13:before {
       display: none; }
+  .top .img .figure14 {
+    width: 130px;
+    height: 195px;
+    content: url("../img/figure_s/figure14_s.jpg"); }
+    .top .img .figure14:after {
+      content: url("../img/figure_s/figure14_s.jpg"); }
+    .top .img .figure14:before {
+      display: none; }
+  .top .img .figure15 {
+    width: 130px;
+    height: 195px;
+    content: url("../img/figure_s/figure15_s.jpg"); }
+    .top .img .figure15:after {
+      content: url("../img/figure_s/figure15_s.jpg"); }
+    .top .img .figure15:before {
+      display: none; }
+  .top .img .figure16 {
+    width: 130px;
+    height: 195px;
+    content: url("../img/figure_s/figure16_s.jpg"); }
+    .top .img .figure16:after {
+      content: url("../img/figure_s/figure16_s.jpg"); }
+    .top .img .figure16:before {
+      display: none; }
+  .top .img .figure17 {
+    width: 130px;
+    height: 195px;
+    content: url("../img/figure_s/figure17_s.jpg"); }
+    .top .img .figure17:after {
+      content: url("../img/figure_s/figure17_s.jpg"); }
+    .top .img .figure17:before {
+      display: none; }
+  .top .img .figure18 {
+    width: 130px;
+    height: 195px;
+    content: url("../img/figure_s/figure18_s.jpg"); }
+    .top .img .figure18:after {
+      content: url("../img/figure_s/figure18_s.jpg"); }
+    .top .img .figure18:before {
+      display: none; }
+  .top .img .figure19 {
+    width: 130px;
+    height: 195px;
+    content: url("../img/figure_s/figure19_s.jpg"); }
+    .top .img .figure19:after {
+      content: url("../img/figure_s/figure19_s.jpg"); }
+    .top .img .figure19:before {
+      display: none; }
 
 /*# sourceMappingURL=style.css.map */
