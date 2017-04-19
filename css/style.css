@@ -4,10 +4,9 @@
   font-weight: normal;
   src: local("Circular Book"), url("../font/lineto-circular-pro-book.woff") format("woff"); }
 html, body {
-  width: 100%;
-  height: 100%;
   font-family: "Circular Book";
-  font-size: 14px; }
+  font-size: 14px;
+  color: #767676; }
 
 /*
 *
@@ -27,9 +26,7 @@ header .logo-header {
     header .logo-header figure .img-header {
       width: 20px;
       height: 20px;
-      content: url("../img/media.svg");
-      margin: 0;
-      padding: 0; }
+      content: url("../img/media.svg"); }
       header .logo-header figure .img-header:after {
         content: url("../img/media.svg"); }
       header .logo-header figure .img-header:before {
@@ -100,7 +97,12 @@ header .logo-header {
     .container .head #form-top_m button {
       vertical-align: middle;
       height: 45px;
-      position: relative; }
+      position: relative;
+      width: 100%;
+      background-color: transparent;
+      border-style: none;
+      border: 0.5px solid #868686;
+      border-radius: 3px; }
       .container .head #form-top_m button img {
         position: absolute;
         top: 10px;
@@ -111,7 +113,7 @@ header .logo-header {
     .container .head #form-top {
       display: none; }
   .container nav {
-    width: 350px; }
+    width: 300px; }
     .container nav ul {
       padding: 50px 0 0 0;
       margin: 0;
@@ -123,8 +125,72 @@ header .logo-header {
         .container nav ul li #first {
           color: #48A6AA; }
         .container nav ul li a {
+          font-weight: bold;
           text-decoration: none;
-          font-size: 12px;
+          font-size: 11px;
           color: #868686; }
+
+/*
+*
+*
+*################################### image top
+*
+*/
+.top .img {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  overflow: scroll; }
+  .top .img .figure {
+    margin-right: 12px; }
+  .top .img figure {
+    padding: 0;
+    margin: 0; }
+    .top .img figure span {
+      font-weight: bold; }
+  .top .img .figure1 {
+    width: 130px;
+    height: 195px;
+    content: url("../img/figure_s/figure.jpg"); }
+    .top .img .figure1:after {
+      content: url("../img/figure_s/figure.jpg"); }
+    .top .img .figure1:before {
+      display: none; }
+    .top .img .figure1 figcaption {
+      width: 130px; }
+  .top .img .figure2 {
+    width: 130px;
+    height: 195px;
+    content: url("../img/figure_s/figure2_s.jpg"); }
+    .top .img .figure2:after {
+      content: url("../img/figure_s/figure2_s.jpg"); }
+    .top .img .figure2:before {
+      display: none; }
+  .top .img .figure3 {
+    width: 130px;
+    height: 195px;
+    content: url("../img/figure_s/figure3_s.jpg"); }
+    .top .img .figure3:after {
+      content: url("../img/figure_s/figure3_s.jpg"); }
+    .top .img .figure3:before {
+      display: none; }
+  .top .img .figure4 {
+    width: 130px;
+    height: 195px;
+    content: url("../img/figure_s/figure4_s.jpg"); }
+    .top .img .figure4:after {
+      content: url("../img/figure_s/figure4_s.jpg"); }
+    .top .img .figure4:before {
+      display: none; }
+  .top .img .figure5 {
+    width: 130px;
+    height: 195px;
+    content: url("../img/figure_s/figure5_s.jpg"); }
+    .top .img .figure5:after {
+      content: url("../img/figure_s/figure5_s.jpg"); }
+    .top .img .figure5:before {
+      display: none; }
+  .top .img .chevron {
+    display: none; }
 
 /*# sourceMappingURL=style.css.map */
