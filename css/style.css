@@ -102,7 +102,8 @@ header .logo-header {
       background-color: transparent;
       border-style: none;
       border: 0.5px solid #868686;
-      border-radius: 3px; }
+      border-radius: 3px;
+      color: #868686; }
       .container .head #form-top_m button img {
         position: absolute;
         top: 10px;
@@ -189,6 +190,14 @@ header .logo-header {
     .top .img .figure5:after {
       content: url("../img/figure_s/figure5_s.jpg"); }
     .top .img .figure5:before {
+      display: none; }
+  .top .img .figure6 {
+    width: 130px;
+    height: 195px;
+    content: url("../img/figure_s/figure6_s.jpg"); }
+    .top .img .figure6:after {
+      content: url("../img/figure_s/figure6_s.jpg"); }
+    .top .img .figure6:before {
       display: none; }
   .top .img .chevron {
     display: none; }
