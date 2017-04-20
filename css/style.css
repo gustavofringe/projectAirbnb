@@ -382,11 +382,27 @@ header .logo-header {
       padding: 0;
       margin: 0; }
 
+/*
+*
+*###################################" footer
+*
+*
+*/
 footer {
   margin: 0;
   padding: 40px 0 0 0;
   width: 100%;
-  border-top: 1px solid #BBBBBB; }
+  border-top: 1px solid #BBBBBB;
+  /*
+  *
+  *######################################## footer logo
+  *
+  */
+  /*
+  *
+  *################################### bottom footer
+  *
+  */ }
   footer .opt {
     padding: 0 0 40px 0;
     width: 270px;
@@ -400,7 +416,6 @@ footer {
       background-color: transparent;
       color: #484848; }
       footer .opt select option {
-        line-height: 100px;
         font-weight: bold; }
       footer .opt select:hover {
         border: 1px solid #00A699; }
@@ -429,5 +444,11 @@ footer {
         vertical-align: top; }
   footer .footer-right .ps {
     display: none; }
+
+/*
+*
+*####################################### tablet format
+*
+*/
 
 /*# sourceMappingURL=style.css.map */
