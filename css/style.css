@@ -388,7 +388,7 @@ footer {
   width: 100%;
   border-top: 1px solid #BBBBBB; }
   footer .opt {
-    padding: 0;
+    padding: 0 0 40px 0;
     width: 270px;
     margin: 0 auto; }
     footer .opt select {
@@ -400,8 +400,34 @@ footer {
       background-color: transparent;
       color: #484848; }
       footer .opt select option {
-        line-height: 40px; }
+        line-height: 100px;
+        font-weight: bold; }
       footer .opt select:hover {
         border: 1px solid #00A699; }
+  footer .footer-section {
+    display: none; }
+  footer .footer-left {
+    border-top: 1px solid #BBBBBB;
+    padding-top: 20px; }
+    footer .footer-left figure, footer .footer-left span {
+      padding: 0;
+      margin: 0;
+      display: inline-block;
+      vertical-align: middle; }
+  footer .footer-right ul {
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+    footer .footer-right ul li {
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 10px; }
+      footer .footer-right ul li a {
+        list-style-type: none;
+        text-decoration: none;
+        color: #BBBBBB;
+        vertical-align: top; }
+  footer .footer-right .ps {
+    display: none; }
 
 /*# sourceMappingURL=style.css.map */
