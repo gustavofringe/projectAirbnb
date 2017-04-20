@@ -8,7 +8,7 @@ html, body {
   font-size: 14px;
   color: #767676; }
 
-#chevron {
+.chevron {
   display: none; }
 
 /*
@@ -395,17 +395,13 @@ footer {
       border-style: none;
       width: 130px;
       height: 40px;
-      border: 1px solid #868686;
+      border: 1px solid #DBDBDB;
       padding-left: 5px;
-      background-image: linear-gradient(45deg, transparent 50%, gray 50%), linear-gradient(135deg, gray 50%, transparent 50%), linear-gradient(to right, #ccc, #ccc);
-      background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
-      background-size: 5px 5px, 5px 5px, 1px 1.5em;
-      background-repeat: no-repeat;
-      margin: 0;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
-      -webkit-appearance: none;
-      -moz-appearance: none; }
+      background-color: transparent;
+      color: #484848; }
+      footer .opt select option {
+        line-height: 40px; }
+      footer .opt select:hover {
+        border: 1px solid #00A699; }
 
 /*# sourceMappingURL=style.css.map */
