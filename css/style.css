@@ -851,6 +851,12 @@ footer {
 */
 @media (min-width: 1200px) {
   header {
+    /*
+    *
+    *
+    *########################################## nav header
+    *
+    */
     position: relative;
     height: 100px; }
     header .logo-header .img-header {
@@ -886,30 +892,47 @@ footer {
 
   .container {
     width: 1080px;
-    margin: 0 auto; }
-    .container .head #form-top {
-      width: 1080px;
-      height: 60px; }
-      .container .head #form-top input {
-        display: inline-block;
-        padding-top: 20px;
-        width: 300px; }
-      .container .head #form-top label {
-        display: inline-block !important; }
-      .container .head #form-top button {
-        visibility: visible;
-        border: 1px solid #BBBBBB;
-        border-style: none;
-        height: 50px;
-        width: 120px;
-        background-color: #FF5A5F;
-        color: #f6f6f6;
-        border-radius: 3px;
-        position: absolute;
-        right: 10px;
-        top: 5px; }
-    .container .head nav ul {
-      width: 500px !important; }
+    margin: 0 auto;
+    /*
+    *
+    *############################### image before footer
+    *
+    */ }
+    .container .head {
+      /*
+      *
+      *####################################### form search destination
+      *
+      */
+      /*
+      *
+      *
+      *############################# nav before image
+      *
+      */ }
+      .container .head #form-top {
+        width: 1080px;
+        height: 60px; }
+        .container .head #form-top input {
+          display: inline-block;
+          padding-top: 20px;
+          width: 300px; }
+        .container .head #form-top label {
+          display: inline-block !important; }
+        .container .head #form-top button {
+          visibility: visible;
+          border: 1px solid #BBBBBB;
+          border-style: none;
+          height: 50px;
+          width: 120px;
+          background-color: #FF5A5F;
+          color: #f6f6f6;
+          border-radius: 3px;
+          position: absolute;
+          right: 10px;
+          top: 5px; }
+      .container .head nav ul {
+        width: 500px !important; }
     .container .top h2 {
       width: 950px; }
     .container .top .img {
@@ -922,7 +945,31 @@ footer {
       transform: rotate(270deg);
       margin-top: 140px; }
     .container .top .img .figure {
-      margin-right: 10px; }
+      margin-right: 10px;
+      /*
+      *
+      *
+      *################################ image of top
+      *
+      */
+      /*
+      *
+      *
+      *################################" experience part
+      *
+      */
+      /*
+      *
+      *
+      *################################# housing part
+      *
+      */
+      /*
+      *
+      *
+      *######################################## country image
+      *
+      */ }
       .container .top .img .figure .figure1 {
         width: 203px;
         height: 305px;
@@ -1084,6 +1131,12 @@ footer {
       .container .img2 .imageestimer:before {
         display: none; }
 
+  /*
+  *
+  *
+  *############################# footer for desktop
+  *
+  **/
   footer {
     width: 1080px;
     margin: 0 auto; }
