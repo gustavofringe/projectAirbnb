@@ -1082,6 +1082,21 @@ footer {
       .container .img2 .imageestimer:after {
         content: url("../img/figure_l/imageestimer_l.jpg"); }
       .container .img2 .imageestimer:before {
-        display: none; } }
+        display: none; }
+
+  footer {
+    width: 1080px;
+    margin: 0 auto; }
+    footer .footer-section {
+      margin-left: 100px; }
+      footer .footer-section section {
+        margin-left: 100px; }
+        footer .footer-section section ul li a {
+          line-height: 25px; }
+    footer .footer-left {
+      width: 670px; }
+    footer .footer-right {
+      border-top: 0.5px solid #BBBBBB;
+      padding-top: 21px; } }
 
 /*# sourceMappingURL=style.css.map */
