@@ -950,13 +950,14 @@ footer {
       */ }
       .container .head #form-top {
         width: 1080px;
-        height: 60px; }
+        height: 60px;
+        display: flex; }
         .container .head #form-top input {
-          display: inline-block;
-          padding-top: 20px;
-          width: 300px; }
+          display: block;
+          border-right: 0.5px solid #BBBBBB; }
         .container .head #form-top label {
-          display: inline-block !important; }
+          display: block !important;
+          width: 70px; }
         .container .head #form-top button {
           visibility: visible;
           border: 1px solid #BBBBBB;
