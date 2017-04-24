@@ -192,10 +192,13 @@ header .logo-header #nav ul li:hover > ul {
   overflow: scroll;
   /*
   *
+  *
   *################################## image top
   *
   */
   /*
+  *
+  *
   *
   *################################# image second level
   *
@@ -204,6 +207,7 @@ header .logo-header #nav ul li:hover > ul {
   *
   *
   *#################################### image third level
+  *
   *
   */
 }
@@ -1164,6 +1168,12 @@ footer .footer-right .ps {
   header {
     position: relative;
     height: 100px;
+    /*
+    *
+    *
+    *############################################" nav bar header
+    *
+    **/
   }
   header .logo-header .img-header {
     width: 40px !important;
