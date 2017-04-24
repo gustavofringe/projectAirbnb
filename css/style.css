@@ -17,11 +17,6 @@ html, body {
 */
 header .logo-header {
   display: inline-flex;
-  /*
-  *
-  *####################### navigation
-  *
-  */
 }
 header .logo-header figure {
   margin: 0;
@@ -39,6 +34,11 @@ header .logo-header figure .img-header:before {
   display: none;
 }
 header .logo-header #nav {
+  /*
+  *
+  *####################### navigation
+  *
+  */
   margin-top: 15px;
   display: inline-block;
 }
@@ -99,24 +99,6 @@ header .logo-header #nav ul li:hover > ul {
 .container {
   width: 85%;
   margin: 0 auto;
-  /*
-  *
-  *
-  *################################### image
-  *
-  */
-  /*
-*
-*################################## div before footer
-*
-*/
-}
-.container .head {
-  /*
-  *
-  *######################### form search
-  *
-  */
 }
 .container .head h1 {
   padding: 0 15px 0 0;
@@ -125,6 +107,13 @@ header .logo-header #nav ul li:hover > ul {
 }
 .container .head h1 span {
   color: #FF5A5F;
+}
+.container .head #form-top_m {
+  /*
+*
+*######################### form search
+*
+*/
 }
 .container .head #form-top_m button {
   vertical-align: middle;
@@ -171,6 +160,12 @@ header .logo-header #nav ul li:hover > ul {
   color: #868686;
 }
 .container .top {
+  /*
+*
+*
+*################################### image
+*
+*/
   margin-top: 30px;
 }
 .container .top .chevron {
@@ -190,26 +185,6 @@ header .logo-header #nav ul li:hover > ul {
   display: flex;
   justify-content: space-between;
   overflow: scroll;
-  /*
-  *
-  *
-  *################################## image top
-  *
-  */
-  /*
-  *
-  *
-  *
-  *################################# image second level
-  *
-  */
-  /*
-  *
-  *
-  *#################################### image third level
-  *
-  *
-  */
 }
 .container .top .img .figure {
   margin-right: 12px;
@@ -244,6 +219,12 @@ header .logo-header #nav ul li:hover > ul {
   font-weight: bold;
 }
 .container .top .img .figure1 {
+  /*
+  *
+  *
+  *
+  *########################image top
+  */
   width: 130px;
   height: 195px;
   content: url("../img/figure_s/figure.jpg");
@@ -291,6 +272,12 @@ header .logo-header #nav ul li:hover > ul {
   display: none;
 }
 .container .top .img .figure5 {
+  /*
+  *
+  *################################" image second level
+  *
+  *
+  */
   width: 130px;
   height: 195px;
   content: url("../img/figure_s/figure5_s.jpg");
@@ -357,6 +344,13 @@ header .logo-header #nav ul li:hover > ul {
   display: none;
 }
 .container .top .img .figure11 {
+  /*
+  *
+  *
+  *#################################### image third level
+  *
+  *
+  */
   width: 293px;
   height: 195px;
   content: url("../img/figure_s/figure11_s.jpg");
@@ -390,6 +384,11 @@ header .logo-header #nav ul li:hover > ul {
   display: none;
 }
 .container .top .img .figure14 {
+  /*
+  *
+  *##############################" image fifth level
+  *
+  */
   width: 130px;
   height: 195px;
   content: url("../img/figure_s/figure14_s.jpg");
@@ -456,6 +455,11 @@ header .logo-header #nav ul li:hover > ul {
   display: none;
 }
 .container .img2 {
+  /*
+  *
+  *################################## div before footer
+  *
+  */
   padding-bottom: 40px;
 }
 .container .img2 .imageestimer {
@@ -506,16 +510,6 @@ footer {
   padding: 40px 0 0 0;
   width: 100%;
   border-top: 1px solid #BBBBBB;
-  /*
-  *
-  *######################################## footer logo
-  *
-  */
-  /*
-  *
-  *################################### bottom footer
-  *
-  */
 }
 footer .opt {
   padding: 0 0 40px 0;
@@ -538,6 +532,11 @@ footer .opt select:hover {
   border: 1px solid #00A699;
 }
 footer .footer-section {
+  /*
+  *
+  *######################################## footer nav
+  *
+  */
   display: none;
 }
 footer .footer-left {
@@ -549,6 +548,13 @@ footer .footer-left figure, footer .footer-left span {
   margin: 0;
   display: inline-block;
   vertical-align: middle;
+}
+footer .footer-right {
+  /*
+  *
+  *################################### bottom footer
+  *
+  */
 }
 footer .footer-right ul {
   width: 100%;
@@ -612,6 +618,12 @@ footer .footer-right .ps {
     width: 600px;
   }
   .container .top .img .figure .figure1 {
+    /*
+    *
+    *#################################### image first level
+    *
+    *
+    */
     width: 168px;
     height: 252px;
     content: url("../img/figure_sm/figure_sm.jpg");
@@ -667,6 +679,12 @@ footer .footer-right .ps {
     display: none;
   }
   .container .top .img .figure .figure6 {
+    /*
+    *
+    *################################## image second level
+    *
+    *
+    */
     width: 168px;
     height: 252px;
     content: url("../img/figure_sm/figure6_sm.jpg");
@@ -722,6 +740,12 @@ footer .footer-right .ps {
     display: none;
   }
   .container .top .img .figure .figure11 {
+    /*
+    *
+    *##################################" image house
+    *
+    *
+    */
     width: 353px;
     height: 235px;
     content: url("../img/figure_sm/figure11_sm.jpg");
@@ -755,6 +779,12 @@ footer .footer-right .ps {
     display: none;
   }
   .container .top .img .figure .figure14 {
+    /*
+    *
+    *################################## image country
+    *
+    *
+    */
     width: 168px;
     height: 252px;
     content: url("../img/figure_sm/figure14_sm.jpg");
@@ -821,6 +851,11 @@ footer .footer-right .ps {
     display: none;
   }
   .container .img2 {
+    /*
+    *
+    *##############################" imageestimer
+    *
+    */
     margin-top: 50px;
     display: flex;
     flex-direction: row-reverse;
@@ -835,6 +870,13 @@ footer .footer-right .ps {
     width: 375px;
   }
 
+  /*
+  *
+  *
+  *############################" footer
+  *
+  *
+  */
   footer .opt, footer .footer-section {
     display: inline-block;
     vertical-align: top;
@@ -902,26 +944,6 @@ footer .footer-right .ps {
   .container .top h2 {
     width: 800px;
   }
-  .container .top .img .figure {
-    /*
-    *
-    *
-    *#####################################" second level of image
-    *
-    */
-    /*
-    *
-    *
-    *########################################## third level of image
-    *
-    */
-    /*
-    *
-    *
-    *###################################### four level of image
-    *
-    */
-  }
   .container .top .img .figure .figure1 {
     width: 233px;
     height: 350px;
@@ -978,6 +1000,12 @@ footer .footer-right .ps {
     display: none;
   }
   .container .top .img .figure .figure6 {
+    /*
+    *
+    *
+    *#####################################" second level of image
+    *
+    */
     width: 233px;
     height: 350px;
     content: url("../img/figure_m/figure6_m.jpg");
@@ -1033,6 +1061,12 @@ footer .footer-right .ps {
     display: none;
   }
   .container .top .img .figure .figure11 {
+    /*
+    *
+    *
+    *########################################## third level of image
+    *
+    */
     width: 480px;
     height: 320px;
     content: url("../img/figure_m/figure11_m.jpg");
@@ -1066,6 +1100,12 @@ footer .footer-right .ps {
     display: none;
   }
   .container .top .img .figure .figure14 {
+    /*
+    *
+    *
+    *###################################### four level of image
+    *
+    */
     width: 233px;
     height: 350px;
     content: url("../img/figure_m/figure14_m.jpg");
@@ -1132,13 +1172,13 @@ footer .footer-right .ps {
     display: none;
   }
 
-  /*
-  *
-  *
-  *###################################### imageestimer
-  *
-  */
   .img2 {
+    /*
+    *
+    *
+    *###################################### imageestimer
+    *
+    */
     display: flex;
     justify-content: space-between !important;
   }
@@ -1229,12 +1269,6 @@ footer .footer-right .ps {
     *####################################### form search destination
     *
     */
-    /*
-    *
-    *
-    *############################# nav before image
-    *
-    */
   }
   .container .head #form-top {
     width: 1080px;
@@ -1271,6 +1305,14 @@ footer .footer-right .ps {
     right: 10px;
     top: 5px;
   }
+  .container .head nav {
+    /*
+    *
+    *
+    *############################# nav before image
+    *
+    */
+  }
   .container .head nav ul {
     width: 400px !important;
   }
@@ -1294,24 +1336,6 @@ footer .footer-right .ps {
     *
     *
     *################################ image of top
-    *
-    */
-    /*
-    *
-    *
-    *################################" experience part
-    *
-    */
-    /*
-    *
-    *
-    *################################# housing part
-    *
-    */
-    /*
-    *
-    *
-    *######################################## country image
     *
     */
   }
@@ -1371,6 +1395,12 @@ footer .footer-right .ps {
     display: none;
   }
   .container .top .img .figure .figure6 {
+    /*
+    *
+    *
+    *################################" experience part
+    *
+    */
     width: 203px;
     height: 305px;
     content: url("../img/figure_l/figure6_l.jpg");
@@ -1426,6 +1456,12 @@ footer .footer-right .ps {
     display: none;
   }
   .container .top .img .figure .figure11 {
+    /*
+    *
+    *
+    *################################# housing part
+    *
+    */
     width: 345px;
     height: 232px;
     content: url("../img/figure_l/figure11_l.jpg");
@@ -1459,6 +1495,12 @@ footer .footer-right .ps {
     display: none;
   }
   .container .top .img .figure .figure14 {
+    /*
+    *
+    *
+    *######################################## country image
+    *
+    */
     width: 167px;
     height: 250px;
     content: url("../img/figure_l/figure14_l.jpg");
