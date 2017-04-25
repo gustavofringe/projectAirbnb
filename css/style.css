@@ -594,6 +594,7 @@ footer .footer-right .ps {
     visibility: hidden;
   }
   .container #form-top {
+    display: flex !important;
     visibility: visible !important;
     width: 700px;
     height: 40px;
@@ -605,10 +606,16 @@ footer .footer-right .ps {
   .container #form-top label {
     display: none;
   }
+  .container #form-top .when, .container #form-top .where, .container #form-top .travel {
+    width: 250px;
+  }
+  .container #form-top .where, .container #form-top .when {
+    border-right: 0.5px solid #BBBBBB;
+  }
   .container #form-top input {
     border-style: none;
     margin: 0;
-    width: 30%;
+    width: 80%;
     padding: 10px 0 0 10px;
   }
   .container #form-top button {
