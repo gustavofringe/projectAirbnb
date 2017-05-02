@@ -1233,20 +1233,25 @@ footer .footer-right .ps {
   header #nav {
     position: absolute;
     top: 0;
-    right: 400px;
+    right: 450px;
   }
   header #nav ul li ul {
     display: inline-block !important;
-    width: 1000px;
     vertical-align: top;
+    width: 800px;
   }
   header #nav ul li ul li {
-    width: 100px !important;
+    width: 120px !important;
     margin: 0;
     padding: 0;
     display: inline-block !important;
+    text-align: center;
+  }
+  header #nav ul li ul li :hover {
+    background: white;
   }
   header #nav ul li ul li a {
+    background: white;
     margin: 0;
     padding: 0;
     width: 100px;
